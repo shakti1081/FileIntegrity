@@ -169,9 +169,9 @@ if __name__ == "__main__":
     
     backup_directory_path = r"C:\Backup Folder"
 
-    manager_phone = "+917679573383"
-    twilio_account_sid = "AC22ec4cccba85873b713d4c2c79244720"
-    twilio_auth_token = "1bb35bae2d13ce2723ac571f6e917b61"
-    twilio_phone_number = "+19383002122"
+    manager_phone = "+9*********"
+    twilio_account_sid = "A*********************************"
+    twilio_auth_token = "1b******************************"
+    twilio_phone_number = "+193********"
     monitor = FileIntegrityMonitor(directory_path, backup_directory_path, manager_phone, twilio_account_sid, twilio_auth_token, twilio_phone_number, log_file_path)
     monitor.run()
